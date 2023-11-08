@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+ 
+}
+
+.principal {
+    background-color: #8A51FC;
+}
+
+.imagem-principal {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.conteudo-principal {
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+
+}
+
+.caixa-de-entrada {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.seletor {
+    background: #FFF;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    cursor: pointer;
+}
+
+.caixa-de-valor {
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+}
+
+.button {
+    background: #772FD3;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    opacity: 0.6;
+}
+
+.caixa-inferior {
+    background: #F4F4F4;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    padding: 12px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.conteudo-da-caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.coin {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.value {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
