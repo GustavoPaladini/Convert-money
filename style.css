@@ -32,7 +32,7 @@
     font-size: 14px;
 }
 
-.seletor {
+.seletor, .select-converted {
     background: #FFF;
     border: 1px solid #BBB;
     border-radius: 4px;
@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-.caixa-de-valor {
+.input-currency {
     background: #FFF;
     border-radius: 4px;
     border: 1px solid #BBB;
@@ -59,7 +59,7 @@
     color: #555;
 }
 
-.button {
+.convert-button {
     background: #772FD3;
     border-radius: 5px;
     width: 100%;
@@ -110,7 +110,7 @@
     font-weight: 400;
 }
 
-.value {
+.value-converted, .value-to-convert {
     color: #555;
     font-size: 20px;
     font-weight: 700;
